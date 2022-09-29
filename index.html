@@ -8,7 +8,10 @@
     <!-- style -->
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/lightgallery.css">
+  
     <!-- 파비콘 -->
     <link rel="shortcut icon" href="icon/favicon.ico" />
     <link rel="apple-touch-icon-precomposed" href="icon/favicon-152.png" />
@@ -167,31 +170,52 @@
             <h4 class="col_tit">Notice</h4>
             <p class="col_desc">게시판 영역의 한줄 효과와 두줄 효과 게시판입니다.</p>
             <!-- 게시판 -->
-            <div class="notice1">
+            <div class="notice1 mt15">
+              <h5>Notice1</h5>
               <ul>
                 <li><a href="#">이 줄은 한 줄 효과입니다. 이 줄은 한 줄 효과입니다.</a></li>
                 <li><a href="#">이 줄은 한 줄 효과입니다. 이 줄은 한 줄 효과입니다.</a></li>
                 <li><a href="#">이 줄은 한 줄 효과입니다. 이 줄은 한 줄 효과입니다.</a></li>
                 <li><a href="#">이 줄은 한 줄 효과입니다. 이 줄은 한 줄 효과입니다.</a></li>
               </ul>
+              <a href="#" class="more" title="더 보기">More<i class="fa-solid fa-plus"></i></a>
             </div>
             <!-- //게시판 -->
-            <div class="notice2">
+            <div class="notice2 mt15">
+              <h5>Notice2</h5>
               <ul>
                 <li><a href="#">이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
                 <li><a href="#">이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
                 <li><a href="#">이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
                 <li><a href="#">이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
               </ul>
+              <a href="#" class="more" title="더 보기">More<i class="fa-solid fa-plus"></i></a>
             </div>
             <!-- 게시판2 -->
-
-            <!-- //게시판2 -->
+             <!-- //게시판2 -->
           </article>
           <article class="column col3">
-            <h4 class="col_tit">Title</h4>
-            <p class="col_desc">이 곳은 설명 부분입니다.</p>
-            <!--  -->
+
+            <h4 class="col_tit">Blog</h4>
+            <p class="col_desc">해상도에 따라 이미지를 다르게 표현하는 방법입니다.</p>
+            <!-- blog1 -->
+            <div class="blog1">
+              <h5 class="ir_su">image1</h5>
+              <figure>
+                <img src="img/blog1_@1.jpg" class="img-normal" alt="normal image">
+                <img src="img/blog1_@2.jpg" class="img-retina" alt="retina image" width="100%">
+                <figcaption>반응형 웹사이트 이미지 글입니다. 반응형 웹사이트 이미지 글입니다. 반응형 웹사이트 이미지 글입니다.</figcaption>
+              </figure>
+            </div>
+            <!-- //blog1 -->
+             <!-- blog2 -->
+             <div class="blog2 mt15">
+              <div class="img-retina">
+                  <h5>image2</h5>
+              </div>
+              <p>반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다.</p>
+          </div>
+            <!-- //blog2 -->
 
             <!-- //col3 -->
           </article>
@@ -199,69 +223,191 @@
         <section id="cont_center">
           <h3 class="ir_su">반응형 사이트 가운데 컨텐츠</h3>
           <article class="column col4">
-            <h4 class="col_tit">Title</h4>
-            <p class="col_desc">이 곳은 설명 부분입니다.</p>
-            <!--  -->
+            <h4 class="col_tit">Slick Slider</h4>
+            <p class="col_desc">slick.js를 이용한 이미지 슬라이드 효과입니다.</p>
+            <!-- 이미지 슬라이드 -->
+            <div class="slider">
+            <div>
+              <figure>
+                <img src="img/slider01.jpg" alt="이미지1">
+                <figcaption><em>Responsive Site</em><span>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드입니다.</span></figcation>              
+              </figure>
+            </div>
+            <div>
+              <figure>
+              <img src="img/slider02.jpg" alt="이미지2">
+              <figcaption><em>Responsive Site</em><span>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드입니다.</span></figcation>              
+              </figure>
+          </div>
+            <div>
+              <figure>
+              <img src="img/slider03.jpg" alt="이미지3">
+              <figcaption><em>Responsive Site</em><span>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드입니다.</span></figcation>              
+              </figure>
+            </div>
+          </div>
 
-            <!-- // -->
+            <!-- // 이미지 슬라이드 -->
           </article>
           <article class="column col5">
-            <h4 class="col_tit">Title</h4>
-            <p class="col_desc">이 곳은 설명 부분입니다.</p>
-            <!--  -->
-
-            <!-- //col5 -->
-          </article>
+            <h4 class="col_tit">Blend Effect</h4>
+            <p class="col_desc">Background-blend-mode와 mix-blend-mode</p>
+          <!-- lightbox--> 
+          <div class="lightbox square clearfix">
+            <a href="img/light01_s.jpg"><img src="img/light01.jpg" alt="이미지"><em>blur</em></a>
+           <a href="img/light02_s.jpg"><img src="img/light02.jpg" alt="이미지"><em>brightness</em></a>
+           <a href="img/light03_s.jpg"><img src="img/light03.jpg" alt="이미지"><em>contrast</em></a>
+           <a href="img/light04_s.jpg"><img src="img/light04.jpg" alt="이미지"><em>grayscale</em></a>
+           <a href="img/light05_s.jpg"><img src="img/light05.jpg" alt="이미지"><em>hur-rotate</em></a>
+           <a href="img/light06_s.jpg"><img src="img/light06.jpg" alt="이미지"><em>invert</em></a>
+           <a href="img/light07_s.jpg"><img src="img/light07.jpg" alt="이미지"><em>opacity</em></a>
+           <a href="img/light08_s.jpg"><img src="img/light08.jpg" alt="이미지"><em>saturate</em></a>
+           <a href="img/light09_s.jpg"><img src="img/light09.jpg" alt="이미지"><em>sepia</em></a>
+           <a href="img/light10_s.jpg"><img src="img/light10.jpg" alt="이미지"><em>Mix</em></a>
+          </div>
+        </article>
+          <!-- //lightbox -->
           <article class="column col6">
             <h4 class="col_tit">Title</h4>
             <p class="col_desc">이 곳은 설명 부분입니다.</p>
-            <!--  -->
+            <!-- video -->
+          <div id="video">
+            <iframe src="https://www.youtube.com/embed/ZnpuO1uA2Yo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
 
-            <!-- //col6 -->
+            <!-- //video -->
           </article>
         </section>
         <section id="cont_right">
           <h3 class="ir_su">반응형 사이트 오른쪽 컨텐츠</h3>
           <article class="column col7">
-            <h4 class="col_tit">Title</h4>
-            <p class="col_desc">이 곳은 설명 부분입니다.</p>
-            <!--  -->
-
-            <!-- //col7 -->
+            <h4 class="col_tit">Effect1</h4>
+            <p class="col_desc">CSS의 transform을 이용한 마우스 오버효과입니다.</p>
+            <!-- side1 -->
+            <div class="side1">
+              <figure class="front">
+                <img src="img/side1.jpg" alt="이미지1">
+              </figure>
+              <div class="back"><i class="fa-solid fa-heart"></i></div>
+            </div>
+            <!-- //side1-->
           </article>
           <article class="column col8">
-            <h4 class="col_tit">Title</h4>
-            <p class="col_desc">이 곳은 설명 부분입니다.</p>
-            <!--  -->
-
-            <!-- //col8 -->
+            <h4 class="col_tit">Effect2</h4>
+            <p class="col_desc">CSS의 transform을 이용한 마우스 오버효과입니다.</p>
+            <!-- side2 -->
+            <div class="side2">
+              <figure class="front">
+                <img src="img/side2.jpg" alt="이미지2">
+                <figcaption>
+                  Hover Efect
+                </figcaption>
+              </figure>
+              <figure class="back">
+                <img src="img/side4.jpg" alt="이미지2">
+                <figcaption>
+                  Hover Efect
+                </figcaption>
+              </figure>
+            </div>
+            <!-- //side2-->
           </article>
           <article class="column col9">
-            <h4 class="col_tit">Title</h4>
-            <p class="col_desc">이 곳은 설명 부분입니다.</p>
-            <!--  -->
-
-            <!-- //col9 -->
+            <h4 class="col_tit">Effect3</h4>
+            <p class="col_desc">CSS의 transform을 이용한 마우스 오버효과입니다.</p>
+            <!-- side3 -->
+            <div class="side3">
+              <figure>
+                <img src="img/side3.jpg" alt="이미지3">
+                <figcaption>
+                  <h3>Hover<em>Effect</em></h3>
+                </figcaption>
+              </figure>
+            </div>
+            <!-- //side3-->
           </article>
         </section>
       </section>
     </div>
       <!-- contents -->
-    </main>
-    <footer id="footer">
-      <div class="container">
-        <h2>반응형 사이트 푸터</h2>
-      </div>
+      <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer">
+                    <ul>
+                        <li><a href="#">사이트 도움말</a></li>
+                        <li><a href="#">사이트 이용약관</a></li>
+                        <li><a href="#">사이트 운영원칙</a></li>
+                        <li><a href="#"><strong>개인정보취급방침</strong></a></li>
+                        <li><a href="#">책임의 한계와 법적고지</a></li>
+                        <li><a href="#">게시중단요청서비스</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                    <address>
+                        Copyright ©
+                        <a href="http://webstoryboy.co.kr"><strong>webstoryboy</strong></a>
+                        All Rights Reserved.
+                    </address>
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- JavaScript Libraries -->
-    <script src="js/jquery.min_1.12.4.js"></script>
     <script src="js/modernizr-custom.js"></script>
-    <script>
-      //http://www.facebook.com/sharer.php?u={페이지 제목}&t={페이지링크}
-      //http://twitter.com/intent/tweet?text={페이지 제목}&url={페이지링크}
-      //https://share.naver.com/web/shareView.nhn?url={페이지링크}&title={페이지 제목}
-      //https://plus.google.com/share?url={페이지링크}&t={페이지 제목}
-      $(".Facebook").click(function (e) {
+    <!-- <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script> -->
+<script src="js/jquery.min_1.12.4.js"></script>
+<script src="js/modernizr-custom.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/lightgallery.min.js"></script>
+<script>
+        //이미지 슬라이더
+        $(".slider").slick({
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: true,
+                        dots: false
+                        }
+                }
+            ]
+        });
+        // 접기 펼치기
+        $(".btn").click(function(e){
+          e.preventDefault();
+          $(".nav").slideToggle();
+          $(".btn").toggleClass("open");
+          if($(".btn").hasClass("open")){
+            //open
+            $(".btn").find("i").attr("class","fa-solid fa-angle-up")
+          } else{
+          // open 없을때
+          $(".btn").find("i").attr("class","fa-solid fa-angle-down")
+          }
+        });
+        $(window).resize(function(){
+          var wWidth = $(window).width();
+          if(wWidth > 600){
+            $(".nav").removeAttr("style");
+          }
+        })
+        // 라이트 박스
+        $('.lightbox').lightGallery({
+        }); 
+   
+        // sns 공유하기      
+ 
+      $(".facebook").click(function(e){
         e.preventDefault();
         window.open(
           "https://www.facebook.com/sharer/sharer.php?u=" +
