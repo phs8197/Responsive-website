@@ -2,7 +2,7 @@
 
 <p align="space-between;" style="display: flex;">
   <br>
-  <img src="./img/301.png" width="40%">
+  <img src="./img/301.png" width="50%">
   <img src="./img/302.png" width="30%">
   <img src="./img/303.png" width="20%">
   <br>
