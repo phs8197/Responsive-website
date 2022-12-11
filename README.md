@@ -50,9 +50,9 @@ media query<br>
 
 
 <!-- Stack Icon Refernces -->
-[html]: /image/stack/html.svg
-[css]: /image/stack/css.svg
-[figma]: /image/stack/figma.svg
+[html]: /img/stack/html.svg
+[css]: /img/stack/css.svg
+[figma]: /img/stack/figma.svg
 [ts]: /image/stack/typescript.svg
 [react]: /image/stack/react.svg
 [node]: /image/stack/node.svg
